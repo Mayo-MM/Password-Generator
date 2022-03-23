@@ -18,10 +18,7 @@ function writePassword() {
     };
     if (window.confirm("Wanna include special characters?")) {
       passChars += "!@#$%^&*()";
-    } else {
-      // If no characters are selected, end the function and generate no password
-      return;
-    };
+    }
 
     window.alert("Your password will contain " + lengthNum + " characters and at least one of each selected character.")
     // Generate password with the desired number of random selected characters with 'for'
