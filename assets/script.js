@@ -8,7 +8,7 @@ function runScript() {
   let lengthNum = window.prompt("Choose a length of at least 8 characters and no more than 128 characters");
   if (lengthNum >= 8 && lengthNum <=128) {
     window.alert("Your password will contain " + lengthNum + " characters and at least one of each selected character.");
-    testLength = lengthNum;
+    passLength = lengthNum;
     writePassword();
   } else {
     window.alert("Your password must contain at least 8 characters and no more than 128 characters");
